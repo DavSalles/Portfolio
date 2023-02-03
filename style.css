@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, black, #221133);
+    background-position: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+.cabeçalho-link a {
+    color: white;
+    font-size: 17px;
+}
+
+.cabeçalho-link a:hover {
+    color: #545EDB;
+    transition: .3s all;
+}
+
+.logo i {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 1px solid #545EDB;
+    color: #545EDB;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 30px;
+}
+
+button {
+    color: #545EDB;
+    background: transparent;
+    padding: 5px;
+    border: solid 1px #545EDB;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #545EDB;
+    color: white;
+    transition: 0.7s;
+}
+
+.container-text {
+    padding: 150px 0 0 130px;
+    margin-bottom: 115px;
+}
+
+.text h3 {
+    color: white;
+    font-size: 35px;
+}
+
+.text h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 10px;
+}
+
+.text span {
+    color: #545EDB;
+}
+
+.text p {
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.redes-sociais a {
+    color: #545EDB;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+}
+
+.container-two {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(35deg, black, #221133);
+    background-position: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.eusvg {
+    width: 50vw;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.eusvg img {
+    width: 500px;
+}
+
+.art1 {
+    width: 50vw;
+    align-items: center;
+}
+
+.text-two h2 {
+    color: #545EDB;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.text-two p {
+    color: white;
+    font-size: 19px;
+    text-indent: 1em;
+
+}
+
+.p2 {
+    padding-top: 10px;
+}
+
+.container-three {
+    background: linear-gradient(35deg, black, #221133);
+    width: 100%;
+    height: 100vh;
+}
+
+.container-three h2 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 75px;
+    background-color: re;
+    margin-bottom: 50px;
+    padding: 70px;
+    color: #545EDB
+}
+
+.projetos {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.projetos a {
+    font-size: 20px;
+    display: flex;
+    background-color: aqua;
+    color: white;
+}
+
+.pro01 a {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 1.0s;
+}
+
+.projetos p {
+    background-color: #545EDB;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+    text-transform: uppercase;
+}
+
+.pro02 a {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out .5s;
+}
+
+.pro03 a {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
